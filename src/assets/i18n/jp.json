@@ -9,6 +9,15 @@
     }
   },
   "home": {
-    "title": "始める"
+    "title": "Iniciojp"
+  },
+  "about": {
+    "title": "Sobre míjp"
+  },
+  "projects": {
+    "title": "Proyectosjp"
+  },
+  "contact": {
+    "title": "Contactojp"
   }
 }

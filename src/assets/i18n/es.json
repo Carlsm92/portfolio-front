@@ -10,5 +10,14 @@
   },
   "home": {
     "title": "Inicio"
+  },
+  "about": {
+    "title": "Sobre mí"
+  },
+  "projects": {
+    "title": "Proyectos"
+  },
+  "contact": {
+    "title": "Contacto"
   }
 }

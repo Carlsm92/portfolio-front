@@ -11,7 +11,17 @@
     "title": "About me"
   },
   "projects": {
-    "title": "Projects"
+    "title": "Projects",
+    "first": {
+      "alt": "Image of the first project",
+      "title": "First project",
+      "desc": "Description of the first project"
+    },
+    "second": {
+      "alt": "Image of the second project",
+      "title": "Second project",
+      "desc": "Description of the second project"
+    }
   },
   "contact": {
     "title": "Contact"

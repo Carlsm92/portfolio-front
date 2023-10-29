@@ -2,6 +2,11 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
 
+interface SocialLink {
+  link: string;
+  img: string;
+}
+
 @Component({
   selector: 'app-footer',
   standalone: true,
@@ -10,7 +15,7 @@ import { TranslateModule } from '@ngx-translate/core';
   styleUrls: ['./footer.component.scss'],
 })
 export class FooterComponent {
-  socialLinks = [
+  socialLinks: SocialLink[] = [
     {
       link: 'https://www.facebook.com/Carlossanmil?locale=es_ES',
       img: 'facebook',

@@ -4,20 +4,27 @@
     "nav": {
       "about": "私について",
       "projects": "プロジェクト",
-      "portfolio": "ポートフォリオ",
       "contact": "接触"
     }
   },
-  "home": {
-    "title": "Iniciojp"
-  },
   "about": {
-    "title": "Sobre míjp"
+    "title": "私について"
   },
   "projects": {
-    "title": "Proyectosjp"
+    "title": "プロジェクト"
   },
   "contact": {
-    "title": "Contactojp"
+    "title": "接触"
+  },
+  "footer": {
+    "social": {
+      "title": "ソーシャルネットワーク",
+      "facebook": "カルロス・サンチェス・ミランのソーシャルネットワーク Facebook",
+      "x": "カルロス・サンチェス・ミランのソーシャルネットワークX",
+      "instagram": "カルロス・サンチェス・ミランのInstagramソーシャルネットワーク",
+      "linkedin": "カルロス・サンチェス・ミランのソーシャルネットワークLinkedIn"
+    },
+    "design": "♥️で作られたデザイン",
+    "web": "とウェブサイトによる"
   }
 }

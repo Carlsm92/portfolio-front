@@ -4,12 +4,8 @@
     "nav": {
       "about": "Sobre mí",
       "projects": "Proyectos",
-      "portfolio": "Portfolio",
       "contact": "Contacto"
     }
-  },
-  "home": {
-    "title": "Inicio"
   },
   "about": {
     "title": "Sobre mí"
@@ -19,5 +15,16 @@
   },
   "contact": {
     "title": "Contacto"
+  },
+  "footer": {
+    "social": {
+      "title": "Redes sociales",
+      "facebook": "Red social Facebook de Carlos Sánchez Milán",
+      "x": "Red social X de Carlos Sánchez Milán",
+      "instagram": "Red social Instagram de Carlos Sánchez Milán",
+      "linkedin": "Red social LinkedIn de Carlos Sánchez Milán"
+    },
+    "design": "Diseño hecho con ♥️ por",
+    "web": "y sitio web por"
   }
 }

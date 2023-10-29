@@ -1,1 +1,22 @@
-<p>footer works!</p>
+<h3>{{ "footer.social.title" | translate }}</h3>
+
+<ul>
+  <li *ngFor="let socialLink of socialLinks">
+    <a href="{{ socialLink.link }}" target="_blank">
+      <img
+        width="30px"
+        src="assets/imgs/social/{{ socialLink.img }}.svg"
+        [alt]="'footer.social.' + socialLink.img | translate"
+      />
+    </a>
+  </li>
+</ul>
+
+<p>
+  {{ "footer.design" | translate }}
+  <a href="https://github.com/Carlsm92" target="_blank">Carlos Sánchez Milán</a>
+  {{ "footer.web" | translate }}
+  <a href="https://www.jerogassan.dev/" target="_blank"
+    >Jerónimo Gascón Sánchez</a
+  >
+</p>

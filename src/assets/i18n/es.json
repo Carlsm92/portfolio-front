@@ -1,0 +1,14 @@
+{
+  "header": {
+    "flagDesc": "Bandera de España",
+    "nav": {
+      "about": "Sobre mí",
+      "projects": "Proyectos",
+      "portfolio": "Portfolio",
+      "contact": "Contacto"
+    }
+  },
+  "home": {
+    "title": "Inicio"
+  }
+}

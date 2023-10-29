@@ -1,0 +1,14 @@
+{
+  "header": {
+    "flagDesc": "日本の国旗",
+    "nav": {
+      "about": "私について",
+      "projects": "プロジェクト",
+      "portfolio": "ポートフォリオ",
+      "contact": "接触"
+    }
+  },
+  "home": {
+    "title": "始める"
+  }
+}

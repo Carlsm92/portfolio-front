@@ -1,0 +1,14 @@
+{
+  "header": {
+    "flagDesc": "Flag of United Kingdom",
+    "nav": {
+      "about": "About me",
+      "projects": "Proyects",
+      "portfolio": "Portfolio",
+      "contact": "Contact"
+    }
+  },
+  "home": {
+    "title": "Home"
+  }
+}

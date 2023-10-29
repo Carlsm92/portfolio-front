@@ -2,7 +2,7 @@
   <div *ngFor="let language of translate.getLangs()">
     <img
       *ngIf="translate.currentLang === language"
-      src="assets/imgs/{{ language }}.svg"
+      src="assets/imgs/flags/{{ language }}.svg"
       alt="{{ 'header.flagDesc' | translate }}"
     />
   </div>
@@ -11,7 +11,7 @@
     <span *ngFor="let language of translate.getLangs()">
       <img
         *ngIf="translate.currentLang !== language"
-        src="assets/imgs/{{ language }}.svg"
+        src="assets/imgs/flags/{{ language }}.svg"
         (click)="switchLang(language)"
       />
     </span>

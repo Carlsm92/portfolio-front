@@ -1,0 +1,19 @@
+<div class="language-selector" (click)="toggleLanguages()">
+  <div *ngFor="let language of translate.getLangs()">
+    <img
+      *ngIf="translate.currentLang === language"
+      src="assets/imgs/{{ language }}.svg"
+      alt="{{ 'header.flagDesc' | translate }}"
+    />
+  </div>
+
+  <div *ngIf="showLanguages">
+    <span *ngFor="let language of translate.getLangs()">
+      <img
+        *ngIf="translate.currentLang !== language"
+        src="assets/imgs/{{ language }}.svg"
+        (click)="switchLang(language)"
+      />
+    </span>
+  </div>
+</div>

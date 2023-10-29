@@ -5,13 +5,21 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 
 import { languages } from './config/languages';
+import { AboutComponent } from './sections/about/about.component';
+import { ProjectsComponent } from './sections/projects/projects.component';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
   standalone: true,
-  imports: [TranslateModule, HeaderComponent, FooterComponent],
+  imports: [
+    TranslateModule,
+    HeaderComponent,
+    AboutComponent,
+    ProjectsComponent,
+    FooterComponent,
+  ],
 })
 export class AppComponent {
   defaultLanguage: string = 'es';

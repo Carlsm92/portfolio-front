@@ -1,0 +1,12 @@
+<h2 id="projects">{{ "projects.title" | translate }}</h2>
+<ul>
+  <li *ngFor="let project of portfolio">
+    <img
+      width="200px"
+      src="{{ project.img }}"
+      alt="{{ project.alt | translate }}"
+    />
+    <h3>{{ project.title | translate }}</h3>
+    <p>{{ project.desc | translate }}</p>
+  </li>
+</ul>

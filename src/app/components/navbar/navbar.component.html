@@ -1,11 +1,5 @@
 <ul>
-  <li>
-    <a href="#about">{{ "header.nav.about" | translate }}</a>
-  </li>
-  <li>
-    <a href="#projects">{{ "header.nav.projects" | translate }}</a>
-  </li>
-  <li>
-    <a href="#contact">{{ "header.nav.contact" | translate }}</a>
+  <li *ngFor="let link of links">
+    <a href="{{ link.link }}">{{ link.name | translate }}</a>
   </li>
 </ul>

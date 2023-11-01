@@ -1,0 +1,34 @@
+<h2 id="contact">{{ "contact.title" | translate }}</h2>
+
+<form [formGroup]="contact" (ngSubmit)="send()" autocomplete="off">
+  <label [ngClass]="{ error: invalidField('name') }">{{
+    !invalidField("name") ? name : invalidName
+  }}</label>
+  <input type="text" formControlName="name" />
+  <label [ngClass]="{ error: invalidField('email') }">{{
+    !invalidField("email") ? email : invalidEmail
+  }}</label>
+  <input type="text" formControlName="email" />
+  <label [ngClass]="{ error: invalidField('subject') }">{{
+    !invalidField("subject") ? subject : invalidSubject
+  }}</label>
+  <input type="text" formControlName="subject" />
+  <label [ngClass]="{ error: invalidField('message') }">{{
+    !invalidField("message") ? message : invalidMessage
+  }}</label>
+  <textarea formControlName="message"></textarea>
+
+  <button *ngIf="!sending && !serverError" [disabled]="mailSended">
+    {{ mailSended ? sendedButton : sendButton }}
+  </button>
+
+  <button *ngIf="sending" disabled>
+    <app-loader></app-loader>
+  </button>
+
+  <p *ngIf="serverError">
+    {{ "contact.buttons.error" | translate }}
+    <!-- TODO cambiar el mail por el de Carlos -->
+    <a href="mailto:contact@carlos.dev">contact@carlos.dev</a>
+  </p>
+</form>

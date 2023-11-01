@@ -7,6 +7,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { languages } from './config/languages';
 import { AboutComponent } from './sections/about/about.component';
 import { ProjectsComponent } from './sections/projects/projects.component';
+import { ContactComponent } from './sections/contact/contact.component';
 
 @Component({
   selector: 'app-root',
@@ -18,6 +19,7 @@ import { ProjectsComponent } from './sections/projects/projects.component';
     HeaderComponent,
     AboutComponent,
     ProjectsComponent,
+    ContactComponent,
     FooterComponent,
   ],
 })

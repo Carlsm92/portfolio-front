@@ -24,7 +24,25 @@
     }
   },
   "contact": {
-    "title": "Contact"
+    "title": "Contact",
+    "labels": {
+      "name": "Name",
+      "email": "Electronic email",
+      "subject": "Subject",
+      "message": "Message"
+    },
+    "invalids": {
+      "name": "Name with minimum 2 characters",
+      "email": "Invalid electronic email",
+      "subject": "Subject with minimum 2 characters",
+      "message": "Mandatory message"
+    },
+    "buttons": {
+      "send": "Send",
+      "sending": "Sending",
+      "sended": "Message sended",
+      "error": "Server error. Please contact me at"
+    }
   },
   "footer": {
     "social": {

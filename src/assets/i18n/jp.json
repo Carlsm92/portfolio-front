@@ -24,7 +24,25 @@
     }
   },
   "contact": {
-    "title": "接触"
+    "title": "接触",
+    "labels": {
+      "name": "名前",
+      "email": "Eメール",
+      "subject": "事件、出来事",
+      "message": "メッセージ"
+    },
+    "invalids": {
+      "name": "2文字以上の名前",
+      "email": "メールが無効です",
+      "subject": "少なくとも 2 文字の件名",
+      "message": "必須メッセージ"
+    },
+    "buttons": {
+      "send": "送信",
+      "sending": "送信",
+      "sended": "メッセージが送信されました",
+      "error": "サーバーエラー。次のメールまでご連絡ください:"
+    }
   },
   "footer": {
     "social": {

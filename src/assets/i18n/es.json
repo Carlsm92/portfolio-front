@@ -24,7 +24,25 @@
     }
   },
   "contact": {
-    "title": "Contacto"
+    "title": "Contacto",
+    "labels": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "subject": "Asunto",
+      "message": "Mensaje"
+    },
+    "invalids": {
+      "name": "Nombre con mínimo 2 caracteres",
+      "email": "El correo electrónico no es válido",
+      "subject": "Asunto con mínimo 2 caracteres",
+      "message": "Mensaje obligatorio"
+    },
+    "buttons": {
+      "send": "Enviar",
+      "sending": "Enviando",
+      "sended": "Mensaje enviado",
+      "error": "Error del servidor. Por favor, contacte conmigo a"
+    }
   },
   "footer": {
     "social": {
